@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C9391741FBAC8C400F8FC9D /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9391731FBAC8C400F8FC9D /* SettingController.swift */; };
+		4C9391831FBACD4500F8FC9D /* Record+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C93917F1FBACD4500F8FC9D /* Record+CoreDataClass.swift */; };
+		4C9391841FBACD4500F8FC9D /* Record+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9391801FBACD4500F8FC9D /* Record+CoreDataProperties.swift */; };
+		4C94FCEB1F7CF50A001F2610 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C94FCEA1F7CF50A001F2610 /* MyTableViewCell.swift */; };
+		4C94FCED1F7D0708001F2610 /* MonthDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C94FCEC1F7D0708001F2610 /* MonthDetailViewController.swift */; };
 		4CD156901F78F2F2006CD110 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1568F1F78F2F2006CD110 /* AppDelegate.swift */; };
 		4CD156921F78F2F2006CD110 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD156911F78F2F2006CD110 /* ViewController.swift */; };
 		4CD156951F78F2F2006CD110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD156931F78F2F2006CD110 /* Main.storyboard */; };
 		4CD156981F78F2F2006CD110 /* Easy_Record.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CD156961F78F2F2006CD110 /* Easy_Record.xcdatamodeld */; };
 		4CD1569A1F78F2F2006CD110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD156991F78F2F2006CD110 /* Assets.xcassets */; };
 		4CD1569D1F78F2F2006CD110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD1569B1F78F2F2006CD110 /* LaunchScreen.storyboard */; };
+		4CE30CD41F7A97AB000D1DD3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30CD31F7A97AB000D1DD3 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C9391731FBAC8C400F8FC9D /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
+		4C93917F1FBACD4500F8FC9D /* Record+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Record+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4C9391801FBACD4500F8FC9D /* Record+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Record+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4C94FCEA1F7CF50A001F2610 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		4C94FCEC1F7D0708001F2610 /* MonthDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthDetailViewController.swift; sourceTree = "<group>"; };
 		4CD1568C1F78F2F2006CD110 /* Easy Record.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy Record.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD1568F1F78F2F2006CD110 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CD156911F78F2F2006CD110 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +35,7 @@
 		4CD156991F78F2F2006CD110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CD1569C1F78F2F2006CD110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CD1569E1F78F2F2006CD110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CE30CD31F7A97AB000D1DD3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +52,8 @@
 		4CD156831F78F2F2006CD110 = {
 			isa = PBXGroup;
 			children = (
+				4C93917F1FBACD4500F8FC9D /* Record+CoreDataClass.swift */,
+				4C9391801FBACD4500F8FC9D /* Record+CoreDataProperties.swift */,
 				4CD1568E1F78F2F2006CD110 /* Easy Record */,
 				4CD1568D1F78F2F2006CD110 /* Products */,
 			);
@@ -57,12 +71,16 @@
 			isa = PBXGroup;
 			children = (
 				4CD1568F1F78F2F2006CD110 /* AppDelegate.swift */,
-				4CD156911F78F2F2006CD110 /* ViewController.swift */,
 				4CD156931F78F2F2006CD110 /* Main.storyboard */,
 				4CD156991F78F2F2006CD110 /* Assets.xcassets */,
 				4CD1569B1F78F2F2006CD110 /* LaunchScreen.storyboard */,
 				4CD1569E1F78F2F2006CD110 /* Info.plist */,
 				4CD156961F78F2F2006CD110 /* Easy_Record.xcdatamodeld */,
+				4CD156911F78F2F2006CD110 /* ViewController.swift */,
+				4CE30CD31F7A97AB000D1DD3 /* DetailViewController.swift */,
+				4C94FCEC1F7D0708001F2610 /* MonthDetailViewController.swift */,
+				4C94FCEA1F7CF50A001F2610 /* MyTableViewCell.swift */,
+				4C9391731FBAC8C400F8FC9D /* SettingController.swift */,
 			);
 			path = "Easy Record";
 			sourceTree = "<group>";
@@ -100,6 +118,7 @@
 					4CD1568B1F78F2F2006CD110 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 748HF33S24;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -140,9 +159,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C9391741FBAC8C400F8FC9D /* SettingController.swift in Sources */,
+				4C94FCEB1F7CF50A001F2610 /* MyTableViewCell.swift in Sources */,
+				4C94FCED1F7D0708001F2610 /* MonthDetailViewController.swift in Sources */,
 				4CD156921F78F2F2006CD110 /* ViewController.swift in Sources */,
 				4CD156981F78F2F2006CD110 /* Easy_Record.xcdatamodeld in Sources */,
 				4CD156901F78F2F2006CD110 /* AppDelegate.swift in Sources */,
+				4C9391841FBACD4500F8FC9D /* Record+CoreDataProperties.swift in Sources */,
+				4C9391831FBACD4500F8FC9D /* Record+CoreDataClass.swift in Sources */,
+				4CE30CD41F7A97AB000D1DD3 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +293,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "home.Easy-Record";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -281,7 +307,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "home.Easy-Record";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -304,6 +331,7 @@
 				4CD156A31F78F2F2006CD110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
